@@ -16,9 +16,15 @@ NB. Modules architecture allows to try different approches; thus I also implemen
 
 Files structure
 ---------------
-RL_DQN : the main file, but a main function has to be created. (RL_DDQN for the Double DQN)
-Agent_SimpleDQN : the agent, that groups the modules (self contains the NN, and instances of Memory and Control)
-Trainer: drives the training
+- RL_DQN : the main file, but a main function has to be created.
+- Agent_SimpleDQN : the agent, that groups the modules (self contains the NN, and instances of Memory and Control)
+- Trainer: drives the training
+
+for the Double DQN:
+- RL_DDQN
+- Agent_DDQN
+
+Note that the Memory module is instanciated here in a simple way (memory) or with PER principe (PERMemory)
 
 Improvements
 ------------
