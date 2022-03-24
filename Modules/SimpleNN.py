@@ -6,7 +6,7 @@ import torch.functional as F
 
 
 # notre estimateur de Q value ; nn
-class SimpleDQN(nn.Module):
+class SimpleNN(nn.Module):
     def __init__(self, input_size, hidden_size_in, hidden_size_out, output_size, drop_prob=0.2):
         super(SimpleDQN, self).__init__()
         self.input_size = input_size
