@@ -1,4 +1,4 @@
-# Generic_DQN_for_gym
+# Generic Modular Deep Q-Learning Agents for GymAI
 Generic modules for solving gym discrete env
 
 The goal of this project is to create a modular agent that could solve gymAI discrete environments - in this case it has been tested on LunarLander and CartPole. 
